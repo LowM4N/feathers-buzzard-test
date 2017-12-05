@@ -1,13 +1,9 @@
 <script lang="ts">
 import Vue from 'vue'
 import Component from 'nuxt-class-component'
-import LanguageSwitcher from '~/components/language-switcher'
 
 @Component({
-  name: 'menu',
-  components: {
-    LanguageSwitcher
-  }
+  name: 'menu'
 })
 export default class Menu extends Vue { }
 </script>

@@ -1,14 +1,10 @@
 <script lang="ts">
 import Vue from 'vue'
 import Component from 'nuxt-class-component'
-import Logo from '~/components/logo'
 import { Client } from '~/plugins/feathers'
 
 @Component({
-  name: 'home',
-  components: {
-    Logo
-  }
+  name: 'home'
 })
 export default class extends Vue {
   users: Array<any> = []

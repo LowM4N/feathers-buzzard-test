@@ -2,12 +2,10 @@
 import Vue from "vue"
 import Component from 'nuxt-class-component'
 import UiMenu from '~/components/layout/menu'
-import LanguageSwitcher from '~/components/language-switcher'
 
 @Component({
   name: 'default-layout',
   components: {
-    LanguageSwitcher,
     UiMenu
   }
 })
