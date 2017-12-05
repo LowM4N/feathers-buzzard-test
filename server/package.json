@@ -1,0 +1,61 @@
+{
+  "name": "clip-case-server",
+  "description": "",
+  "version": "0.0.1",
+  "homepage": "https://www.clip-case.de",
+  "main": "src",
+  "keywords": [
+    "feathers"
+  ],
+  "author": {
+    "name": "Roman Pisarew",
+    "email": "roman.pisarew@gmail.com"
+  },
+  "contributors": [],
+  "bugs": {},
+  "directories": {
+    "lib": "src",
+    "test": "test/"
+  },
+  "engines": {
+    "node": "^6.0.0",
+    "yarn": ">= 0.18.0"
+  },
+  "scripts": {
+    "dev": "nodemon .",
+    "test": "yarn run eslint && yarn run mocha",
+    "eslint": "eslint src/. test/. --config .eslintrc.json",
+    "start": "ts-node src/",
+    "mocha": "mocha test/ --recursive --exit"
+  },
+  "dependencies": {
+    "@feathersjs/authentication": "2.0.1",
+    "@feathersjs/authentication-jwt": "1.0.1",
+    "@feathersjs/authentication-local": "1.0.1",
+    "@feathersjs/authentication-oauth2": "1.0.2",
+    "@feathersjs/configuration": "1.0.1",
+    "@feathersjs/errors": "3.2.0",
+    "@feathersjs/express": "1.1.2",
+    "@feathersjs/feathers": "3.0.1",
+    "@feathersjs/socketio": "3.0.1",
+    "compression": "1.7.1",
+    "cors": "2.8.4",
+    "feathers-rethinkdb": "0.5.0",
+    "helmet": "3.9.0",
+    "passport-facebook": "2.1.1",
+    "passport-google-oauth20": "1.0.0",
+    "rethinkdbdash": "2.3.31",
+    "serve-favicon": "2.4.5",
+    "winston": "2.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "8.0.54",
+    "eslint": "4.12.1",
+    "mocha": "4.0.1",
+    "nodemon": "1.12.5",
+    "request": "2.83.0",
+    "request-promise": "4.2.2",
+    "ts-node": "3.3.0",
+    "typescript": "2.6.2"
+  }
+}

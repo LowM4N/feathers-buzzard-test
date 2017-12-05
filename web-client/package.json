@@ -1,0 +1,32 @@
+{
+  "name": "nuxt-typescript-starter",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@feathersjs/authentication-client": "1.0.1",
+    "@feathersjs/feathers": "3.0.2",
+    "@feathersjs/socketio-client": "1.0.1",
+    "@types/lodash": "4.14.85",
+    "axios": "0.17.1",
+    "element-ui": "1.4.10",
+    "feathers-vuex": "1.0.4",
+    "nuxt": "1.0.0-rc11",
+    "nuxt-class-component": "1.1.2",
+    "socket.io-client": "^2.0.4",
+    "vue-i18n": "7.3.2",
+    "vue-property-decorator": "6.0.0"
+  },
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "devDependencies": {
+    "node-sass": "4.7.2",
+    "pug": "2.0.0-rc.4",
+    "sass-loader": "6.0.6",
+    "ts-loader": "3.1.1",
+    "typescript": "2.6.1"
+  }
+}
